@@ -7,12 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="595,54,0,0" VerticalAlignment="Top" Height="60" Width="95" Click="ButtonBaseConnect"/>
-        <DataGrid Name="Grid1" Margin="0,0,240,320" AutoGenerateColumns="True">            
+        <Button Content="Показать данные" HorizontalAlignment="Left" Margin="605,170,0,0" VerticalAlignment="Top" Height="60" Width="110" Click="ButtonBaseConnect"/>
+        <DataGrid Name="Grid1" Margin="0,74,240,25" AutoGenerateColumns="True">
         </DataGrid>
-        <TextBox Name="Text1" HorizontalAlignment="Left" Margin="10,134,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="465" Height="40"/>
-        <TextBox Name="Text2" HorizontalAlignment="Left" Margin="10,0,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Center" Width="465" Height="34"/>
-        <TextBox Name="Text3" HorizontalAlignment="Left" Margin="10,274,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="465" Height="35"/>
-
+        <Button Name="sortName" Content="Имени" HorizontalAlignment="Left" Margin="10,44,0,0" VerticalAlignment="Top" Height="25" Width="80" Click="buttonSortName"/>
+        <Button Name="sortSecName" Content="Фамилии" HorizontalAlignment="Left" Margin="130,44,0,0" VerticalAlignment="Top" Height="25" Width="80" Click="buttonSortSecName"/>
+        <Button Name="sortAge" Content="Возрасту" HorizontalAlignment="Left" Margin="244,44,0,0" VerticalAlignment="Top" Height="25" Width="80" Click="buttonSortAge"/>
+        <Label Content="Сортировать по:" HorizontalAlignment="Left" Margin="90,10,0,0" VerticalAlignment="Top" Width="120"/>
     </Grid>
 </Window>
